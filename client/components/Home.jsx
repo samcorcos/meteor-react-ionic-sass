@@ -10,7 +10,7 @@ Home = React.createClass({
             <input type="text" placeholder="Last Name" />
           </label>
           <div className="padding">
-            <button className="button button-block button-positive">
+            <button className="button button-block button-light">
               Sign In
             </button>
           </div>
@@ -19,14 +19,14 @@ Home = React.createClass({
         <ul className="list">
           <li className="item item-toggle">
              HTML5
-             <label className="toggle toggle-assertive">
+             <label className="toggle toggle-light">
                <input type="checkbox" />
                <div className="track">
                  <div className="handle"></div>
                </div>
              </label>
           </li>
-          <li className="item item-checkbox">
+          <li className="item item-checkbox checkbox-light">
              <label className="checkbox">
                <input type="checkbox" />
              </label>
